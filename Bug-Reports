@@ -1,47 +1,77 @@
-# Bug Report #1 – Vehicle Clipping Through NPC
+### Bug Report #1 – Vehicle Clipping Through NPC
 
 **Game:** GTA V  
 **Platform:** PC  
 **Type:** Physics Bug  
 **Severity:** High  
-**Status:** New  
+**Status:** New
 
-## Description
+---
+
+#### Description
 When driving at high speed and colliding with an NPC at a specific angle, the NPC clips through the vehicle and disappears.
 
-## Steps to Reproduce
-1. Drive at high speed in a crowded area
-2. Hit an NPC from a side angle
-3. Observe the NPC behavior
+#### Steps to Reproduce
+1. Drive at high speed in a crowded area.
+2. Hit an NPC from a side angle.
+3. Observe the NPC behavior.
 
-## Expected Result
-NPC should collide and react physically (ragdoll)
+#### Expected Result
+The NPC should collide with the vehicle and react physically (ragdoll animation).
 
-## Actual Result
-NPC clips through vehicle and disappears
+#### Actual Result
+- The NPC clips through the vehicle and disappears.
 
-## Frequency
-3/10 times
+#### Frequency
+- 3/10 instances (30% reproducibility in similar scenarios).
 
-## Notes
-May be related to collision detection or physics engine timing
+#### Notes
+- May be related to collision detection issues or timings in the physics engine.
+
+#### Suggested Evidence
+- Video of the bug occurring.
+- Logs from the game client or physics engine (if available).
+
+#### Severity Justification
+- High: This disrupts immersion and affects core gameplay involving NPC interactions.
 
 
 
-# Bug Report #2 – Ability Hitbox Inconsistency
+### Bug Report #2 – Ability Hitbox Inconsistency
 
 **Game:** Valorant  
+**Platform:** PC  
 **Type:** Gameplay Bug  
 **Severity:** Medium  
+**Status:** New  
 
-## Description
-Certain abilities (e.g., molly-type) deal inconsistent damage near edges.
+---
 
-## Expected
-Uniform damage within area of effect
+#### Description
+Certain abilities (e.g., molly-type) deal inconsistent damage near their edges, leading to unreliable gameplay.
 
-## Actual
-Edge zones sometimes deal no damage
+#### Steps to Reproduce
+1. Use any molly-type ability (e.g., Brimstone's molotov).
+2. Aim near the edge of the ability's area of effect.
+3. Notice the damage pattern around the edges.
 
-## Impact
-Affects competitive fairness
+#### Expected Result
+- A uniform distribution of damage across the entire area of effect, including edge zones.
+
+#### Actual Result
+- Edge zones sometimes deal no damage, resulting in inconsistent gameplay.
+
+#### Impact
+- Affects fairness in competitive settings where consistent damage expectations are critical.
+
+#### Notes
+- This behavior is only reproducible under specific conditions:
+  - Distance between enemies and the edge.
+  - Terrain geometry.
+
+#### Suggested Evidence
+- Example match replay showcasing damage inconsistency.
+- Screenshots of the ability’s area of effect compared to damage zones.
+
+#### Severity Justification
+- Medium: While it does not break the game, it impacts competitive integrity and can affect matches dramatically.
