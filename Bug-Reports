@@ -1,0 +1,47 @@
+# Bug Report #1 – Vehicle Clipping Through NPC
+
+**Game:** GTA V  
+**Platform:** PC  
+**Type:** Physics Bug  
+**Severity:** High  
+**Status:** New  
+
+## Description
+When driving at high speed and colliding with an NPC at a specific angle, the NPC clips through the vehicle and disappears.
+
+## Steps to Reproduce
+1. Drive at high speed in a crowded area
+2. Hit an NPC from a side angle
+3. Observe the NPC behavior
+
+## Expected Result
+NPC should collide and react physically (ragdoll)
+
+## Actual Result
+NPC clips through vehicle and disappears
+
+## Frequency
+3/10 times
+
+## Notes
+May be related to collision detection or physics engine timing
+
+
+
+# Bug Report #2 – Ability Hitbox Inconsistency
+
+**Game:** Valorant  
+**Type:** Gameplay Bug  
+**Severity:** Medium  
+
+## Description
+Certain abilities (e.g., molly-type) deal inconsistent damage near edges.
+
+## Expected
+Uniform damage within area of effect
+
+## Actual
+Edge zones sometimes deal no damage
+
+## Impact
+Affects competitive fairness
